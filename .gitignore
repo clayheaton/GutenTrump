@@ -1,0 +1,4 @@
+credentials.py
+*.ipynb
+*.ipython_notebooks
+ipynb_checkpoints/
