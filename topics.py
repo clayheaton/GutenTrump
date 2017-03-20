@@ -26,7 +26,6 @@ topic_list = [
     "Congress",
     "ISIS",
     "Ben",
-    "Tiffany",
     "illegal",
     "aliens",
     "administration",
@@ -51,10 +50,6 @@ starts_with_list = [
     "Ben Carson",
     "But Ivanka",
     "Monday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Mattis",
     "America",
     "They",
     "You",
@@ -64,5 +59,4 @@ starts_with_list = [
     "One",
     "To",
     "Florida"
-
 ]
