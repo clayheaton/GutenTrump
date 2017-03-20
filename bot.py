@@ -166,7 +166,7 @@ def main():
 
 
 if __name__ == '__main__':
-    api.update_status("GutenTrump version " + bot_version + " initialized.")
+    # api.update_status("GutenTrump version " + bot_version + " initialized.")
     while True:
         main()
         sleeptime = int(random.random()*1800 + 1800)
