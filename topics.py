@@ -21,7 +21,7 @@ topic_list = [
     "We",
     "Democrats",
     "Mexico",
-    "Global",
+    "global",
     "dishonest",
     "Congress",
     "ISIS",

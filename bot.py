@@ -103,7 +103,7 @@ def tweet_stream(num_tweets,keyword=None,models=[],weights=[],max_tries=500):
                     if tries > max_tries:
                         keyword = None
                         print("**Max tries exceeded")
-                        return tweet_stream(num_tweets,keyword,models,trump_weight,other_weight,max_tries)
+                        return tweet_stream(num_tweets,keyword,models,weights,max_tries)
         else:
             s = model_combo.make_short_sentence(140)
             tweets.append(s)
