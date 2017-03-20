@@ -10,6 +10,7 @@ import random
 import nltk
 import re
 
+# https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library
 
 bot_version = "1.0"
 global_state_size = 2
@@ -166,7 +167,9 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
-    # while True:
-    #     main()
-    #     sleep(3600)
+    #main()
+    while True:
+        main()
+        sleeptime = int(random.random()*1800 + 1800)
+        print("Sleeping seconds:",sleeptime)
+        sleep(sleeptime)
