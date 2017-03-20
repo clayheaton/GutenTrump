@@ -39,7 +39,8 @@ topic_list = [
     "Thank",
     "believe",
     "Washington",
-    "talk"
+    "talk",
+    "health"
 
 ]
 

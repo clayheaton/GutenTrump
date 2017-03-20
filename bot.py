@@ -12,7 +12,7 @@ import re
 
 # https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library
 
-bot_version = "1.0"
+bot_version = "1.1"
 global_state_size = 2
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -121,10 +121,10 @@ def tweet_stream_starts_with(tweet_start,num_tweets=3,max_length=140):
     return tweets
 
 def make_modelweights(length_of_modelset):
-    return [2] + [0.5+random.random()*1.5 for n in range(length_of_modelset - 1)]
+    return [3] + [random.random()*1.5 for n in range(length_of_modelset - 1)]
 
 def main():
-    # api.update_status("GutenTrump version " + bot_version + " initialized.")
+    api.update_status("GutenTrump version " + bot_version + " initialized.")
     factor = int(1 + random.random()*100)
     print("")
     print("Decision factor:",factor)
